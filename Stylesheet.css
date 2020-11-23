@@ -1,0 +1,150 @@
+body {
+    font-family: Arial;
+}
+/*Logo and title*/
+.header {
+    text-align: center;
+}
+h2.header {
+    background-color: #f32936;
+}
+div.title {
+    background-color: #f32936;
+    color: white;
+    margin: 0.8rem 16rem;
+    padding: 0.1rem 0;
+}
+/*Divisions*/
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 3px 0;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.left, .right {
+    width: 33.33%;
+    background-color: #c21e29;
+    color: white;
+}
+.middle {
+    width: 33.33%;
+    background-color: #f32936;
+    color: white;
+}
+div.gallery {
+    margin: 4px 10rem;
+    border: 1px solid rgb(70, 70, 70);
+    background-color: #dddddd;
+    float: left;
+    width: 180px;
+}
+div.gallery:hover {
+    border: 1px solid rgb(241, 170, 170);
+}
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+/*Feedback Form*/
+input[type=text], select {
+    width: 35%;
+    padding: 12px 15px;
+    margin: 4px 8px ;
+    display: inline-block;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: medium;
+}
+
+input[type=email], select {
+    width: 35%;
+    padding: 12px 15px;
+    margin: 4px 8px;
+    display: inline-block;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: medium;
+}
+
+input[type=submit] {
+    width: 150px;
+    height: 30px;
+    background-color: rgb(237, 206, 240);
+    color: rgb(65, 2, 85);
+    font-size: medium;
+}
+form {
+    margin: 1rem;
+    position: initial;
+    padding-left:35rem;
+}
+.background {
+    background-color: #f32936;
+}
+form input {
+    border: 1px solid #ccc;
+    background-color: #d2d3c9;
+    width: 250px;
+    border-radius: 5px;
+    font-family: Arial;
+    margin: 0 auto 10px auto;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    font-weight: 300;
+  }
+  form textarea {
+    border: 1px solid #ccc;
+    background-color: #d2d3c9;
+    border-radius: 5px;
+    font-family: Arial;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    font-weight: 300;
+    width: 330px;
+    padding-top: 5px;
+  }
+form button {
+    appearance: none;
+    outline: 0;
+    background-color: #c21e29;
+    border: 0;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5px;
+    width: 281px;
+    font-size: 18px;
+    margin-left: 1.5rem;
+  }
+  #message {
+      height: 200px;
+  }
+  /*Footer*/
+  #footer {
+    margin-top: 50px;
+    display: flex;
+    height: 60px;
+    width:100%;
+    background-color: #f32936;
+    color: white;
+    padding:1px 10px;
+    padding-top: 20px;
+    justify-content: center;
+}
+.fab{
+    padding: 5px 15px 15px 15px;
+    color: white;
+}
